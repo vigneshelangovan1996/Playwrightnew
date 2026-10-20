@@ -4,6 +4,7 @@ test('framhandling',async({page})=>{
     await page.locator("//a[text()='SwitchTo']").click()
     await page.locator("//a[@href='Frames.html']").click()
     await page.frameLocator("//iframe[@style='float: left;height: 300px;width: 600px']").locator("//input[@type='text']").first().fill("boss");
+    console.log("vignesh");
 
 
 
